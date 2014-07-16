@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=2 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="lao "/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="1">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=1 -->
+            <FeatureIndex index="0" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=2 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="ccmp"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="0"/>
+          <LookupListIndex index="1" value="1"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=3 -->
+      <Lookup index="0">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="uni0EB3" out="uni0ECD_uni0EB2"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="uni0EB1">
+            <Ligature components="uni0ECB" glyph="uni0EB1_uni0ECB"/>
+            <Ligature components="uni0ECA" glyph="uni0EB1_uni0ECA"/>
+            <Ligature components="uni0EC9" glyph="uni0EB1_uni0EC9"/>
+            <Ligature components="uni0EC8" glyph="uni0EB1_uni0EC8"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0EB4">
+            <Ligature components="uni0ECB" glyph="uni0EB4_uni0ECB"/>
+            <Ligature components="uni0ECA" glyph="uni0EB4_uni0ECA"/>
+            <Ligature components="uni0EC9" glyph="uni0EB4_uni0EC9"/>
+            <Ligature components="uni0EC8" glyph="uni0EB4_uni0EC8"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0EB5">
+            <Ligature components="uni0ECB" glyph="uni0EB5_uni0ECB"/>
+            <Ligature components="uni0ECA" glyph="uni0EB5_uni0ECA"/>
+            <Ligature components="uni0EC9" glyph="uni0EB5_uni0EC9"/>
+            <Ligature components="uni0EC8" glyph="uni0EB5_uni0EC8"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0EB6">
+            <Ligature components="uni0ECB" glyph="uni0EB6_uni0ECB"/>
+            <Ligature components="uni0ECA" glyph="uni0EB6_uni0ECA"/>
+            <Ligature components="uni0EC9" glyph="uni0EB6_uni0EC9"/>
+            <Ligature components="uni0EC8" glyph="uni0EB6_uni0EC8"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0EB7">
+            <Ligature components="uni0ECB" glyph="uni0EB7_uni0ECB"/>
+            <Ligature components="uni0ECA" glyph="uni0EB7_uni0ECA"/>
+            <Ligature components="uni0EC9" glyph="uni0EB7_uni0EC9"/>
+            <Ligature components="uni0EC8" glyph="uni0EB7_uni0EC8"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0EBB">
+            <Ligature components="uni0ECB" glyph="uni0EBB_uni0ECB"/>
+            <Ligature components="uni0ECA" glyph="uni0EBB_uni0ECA"/>
+            <Ligature components="uni0EC9" glyph="uni0EBB_uni0EC9"/>
+            <Ligature components="uni0EC8" glyph="uni0EBB_uni0EC8"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0ECC">
+            <Ligature components="uni0ECB" glyph="uni0ECC_uni0ECB"/>
+            <Ligature components="uni0ECA" glyph="uni0ECC_uni0ECA"/>
+            <Ligature components="uni0EC9" glyph="uni0ECC_uni0EC9"/>
+            <Ligature components="uni0EC8" glyph="uni0ECC_uni0EC8"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0ECD">
+            <Ligature components="uni0ECB" glyph="uni0ECD_uni0ECB"/>
+            <Ligature components="uni0ECA" glyph="uni0ECD_uni0ECA"/>
+            <Ligature components="uni0EC9" glyph="uni0ECD_uni0EC9"/>
+            <Ligature components="uni0EC8" glyph="uni0ECD_uni0EC8"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="2">
+        <LookupType value="2"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <MultipleSubst index="0" Format="1">
+          <Coverage Format="1">
+            <Glyph value="uni0EB3"/>
+          </Coverage>
+          <!-- SequenceCount=1 -->
+          <Sequence index="0">
+            <!-- GlyphCount=2 -->
+            <Substitute index="0" value="uni0ECD"/>
+            <Substitute index="1" value="uni0EB2"/>
+          </Sequence>
+        </MultipleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>

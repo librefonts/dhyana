@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.4">
+  <GlyphOrder src="Dhyana-Regular.otf.GlyphOrder.ttx"/>
+  <head src="Dhyana-Regular.otf._h_e_a_d.ttx"/>
+  <hhea src="Dhyana-Regular.otf._h_h_e_a.ttx"/>
+  <maxp src="Dhyana-Regular.otf._m_a_x_p.ttx"/>
+  <OS_2 src="Dhyana-Regular.otf.O_S_2f_2.ttx"/>
+  <name src="Dhyana-Regular.otf._n_a_m_e.ttx"/>
+  <cmap src="Dhyana-Regular.otf._c_m_a_p.ttx"/>
+  <post src="Dhyana-Regular.otf._p_o_s_t.ttx"/>
+  <CFF src="Dhyana-Regular.otf.C_F_F_.ttx"/>
+  <FFTM src="Dhyana-Regular.otf.F_F_T_M_.ttx"/>
+  <GDEF src="Dhyana-Regular.otf.G_D_E_F_.ttx"/>
+  <GPOS src="Dhyana-Regular.otf.G_P_O_S_.ttx"/>
+  <GSUB src="Dhyana-Regular.otf.G_S_U_B_.ttx"/>
+  <hmtx src="Dhyana-Regular.otf._h_m_t_x.ttx"/>
+</ttFont>
