@@ -1,0 +1,1249 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/dhyana/METADATA.json /home/travis/build/fontdirectory/dhyana/builds/build
+$ cp -a /home/travis/build/fontdirectory/dhyana/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/dhyana/builds/build
+$ cp -a /home/travis/build/fontdirectory/dhyana/FONTLOG.txt /home/travis/build/fontdirectory/dhyana/builds/build
+$ cp -a src/Dhyana-Regular.ufo src/Dhyana-Bold.ufo Dhyana-Regular.ttf.ttx Dhyana-Bold.ttf.ttx src/Dhyana-Regular.otf.ttx src/Dhyana-Bold.otf.ttx src/Dhyana-Regular.sfd src/Dhyana-Regular-TTF.sfd src/Dhyana-Bold.sfd src/Dhyana-Bold-TTF.sfd src/Dhyana-Regular.otf.ttx src/Dhyana-Regular.otf._p_o_s_t.ttx src/Dhyana-Regular.otf._n_a_m_e.ttx src/Dhyana-Regular.otf._m_a_x_p.ttx src/Dhyana-Regular.otf._h_m_t_x.ttx src/Dhyana-Regular.otf._h_h_e_a.ttx src/Dhyana-Regular.otf._h_e_a_d.ttx src/Dhyana-Regular.otf._c_m_a_p.ttx src/Dhyana-Regular.otf.O_S_2f_2.ttx src/Dhyana-Regular.otf.GlyphOrder.ttx src/Dhyana-Regular.otf.G_S_U_B_.ttx src/Dhyana-Regular.otf.G_P_O_S_.ttx src/Dhyana-Regular.otf.G_D_E_F_.ttx src/Dhyana-Regular.otf.F_F_T_M_.ttx src/Dhyana-Regular.otf.C_F_F_.ttx src/Dhyana-Bold.otf.ttx src/Dhyana-Bold.otf._p_o_s_t.ttx src/Dhyana-Bold.otf._n_a_m_e.ttx src/Dhyana-Bold.otf._m_a_x_p.ttx src/Dhyana-Bold.otf._h_m_t_x.ttx src/Dhyana-Bold.otf._h_h_e_a.ttx src/Dhyana-Bold.otf._h_e_a_d.ttx src/Dhyana-Bold.otf._c_m_a_p.ttx src/Dhyana-Bold.otf.O_S_2f_2.ttx src/Dhyana-Bold.otf.GlyphOrder.ttx src/Dhyana-Bold.otf.G_S_U_B_.ttx src/Dhyana-Bold.otf.G_P_O_S_.ttx src/Dhyana-Bold.otf.G_D_E_F_.ttx src/Dhyana-Bold.otf.F_F_T_M_.ttx src/Dhyana-Bold.otf.C_F_F_.ttx Dhyana-Regular.ttf._p_r_e_p.ttx Dhyana-Regular.ttf._p_o_s_t.ttx Dhyana-Regular.ttf._n_a_m_e.ttx Dhyana-Regular.ttf._m_a_x_p.ttx Dhyana-Regular.ttf._l_o_c_a.ttx Dhyana-Regular.ttf._h_m_t_x.ttx Dhyana-Regular.ttf._h_h_e_a.ttx Dhyana-Regular.ttf._h_e_a_d.ttx Dhyana-Regular.ttf._g_l_y_f.ttx Dhyana-Regular.ttf._g_a_s_p.ttx Dhyana-Regular.ttf._f_p_g_m.ttx Dhyana-Regular.ttf._c_v_t.ttx Dhyana-Regular.ttf._c_m_a_p.ttx Dhyana-Regular.ttf.O_S_2f_2.ttx Dhyana-Regular.ttf.GlyphOrder.ttx Dhyana-Regular.ttf.G_S_U_B_.ttx Dhyana-Regular.ttf.G_P_O_S_.ttx Dhyana-Regular.ttf.G_D_E_F_.ttx Dhyana-Regular.ttf.F_F_T_M_.ttx Dhyana-Bold.ttf._p_r_e_p.ttx Dhyana-Bold.ttf._p_o_s_t.ttx Dhyana-Bold.ttf._n_a_m_e.ttx Dhyana-Bold.ttf._m_a_x_p.ttx Dhyana-Bold.ttf._l_o_c_a.ttx Dhyana-Bold.ttf._h_m_t_x.ttx Dhyana-Bold.ttf._h_h_e_a.ttx Dhyana-Bold.ttf._h_e_a_d.ttx Dhyana-Bold.ttf._g_l_y_f.ttx Dhyana-Bold.ttf._g_a_s_p.ttx Dhyana-Bold.ttf._f_p_g_m.ttx Dhyana-Bold.ttf._c_v_t.ttx Dhyana-Bold.ttf._c_m_a_p.ttx Dhyana-Bold.ttf.O_S_2f_2.ttx Dhyana-Bold.ttf.GlyphOrder.ttx Dhyana-Bold.ttf.G_S_U_B_.ttx Dhyana-Bold.ttf.G_P_O_S_.ttx Dhyana-Bold.ttf.G_D_E_F_.ttx Dhyana-Bold.ttf.F_F_T_M_.ttx src/Dhyana-Regular.otf._p_o_s_t.ttx src/Dhyana-Regular.otf._n_a_m_e.ttx src/Dhyana-Regular.otf._m_a_x_p.ttx src/Dhyana-Regular.otf._h_m_t_x.ttx src/Dhyana-Regular.otf._h_h_e_a.ttx src/Dhyana-Regular.otf._h_e_a_d.ttx src/Dhyana-Regular.otf._c_m_a_p.ttx src/Dhyana-Regular.otf.O_S_2f_2.ttx src/Dhyana-Regular.otf.GlyphOrder.ttx src/Dhyana-Regular.otf.G_S_U_B_.ttx src/Dhyana-Regular.otf.G_P_O_S_.ttx src/Dhyana-Regular.otf.G_D_E_F_.ttx src/Dhyana-Regular.otf.F_F_T_M_.ttx src/Dhyana-Regular.otf.C_F_F_.ttx src/Dhyana-Bold.otf._p_o_s_t.ttx src/Dhyana-Bold.otf._n_a_m_e.ttx src/Dhyana-Bold.otf._m_a_x_p.ttx src/Dhyana-Bold.otf._h_m_t_x.ttx src/Dhyana-Bold.otf._h_h_e_a.ttx src/Dhyana-Bold.otf._h_e_a_d.ttx src/Dhyana-Bold.otf._c_m_a_p.ttx src/Dhyana-Bold.otf.O_S_2f_2.ttx src/Dhyana-Bold.otf.GlyphOrder.ttx src/Dhyana-Bold.otf.G_S_U_B_.ttx src/Dhyana-Bold.otf.G_P_O_S_.ttx src/Dhyana-Bold.otf.G_D_E_F_.ttx src/Dhyana-Bold.otf.F_F_T_M_.ttx src/Dhyana-Bold.otf.C_F_F_.ttx src/Dhyana-Regular.otf.ttx src/Dhyana-Regular.otf._p_o_s_t.ttx src/Dhyana-Regular.otf._n_a_m_e.ttx src/Dhyana-Regular.otf._m_a_x_p.ttx src/Dhyana-Regular.otf._h_m_t_x.ttx src/Dhyana-Regular.otf._h_h_e_a.ttx src/Dhyana-Regular.otf._h_e_a_d.ttx src/Dhyana-Regular.otf._c_m_a_p.ttx src/Dhyana-Regular.otf.O_S_2f_2.ttx src/Dhyana-Regular.otf.GlyphOrder.ttx src/Dhyana-Regular.otf.G_S_U_B_.ttx src/Dhyana-Regular.otf.G_P_O_S_.ttx src/Dhyana-Regular.otf.G_D_E_F_.ttx src/Dhyana-Regular.otf.F_F_T_M_.ttx src/Dhyana-Regular.otf.C_F_F_.ttx src/Dhyana-Bold.otf.ttx src/Dhyana-Bold.otf._p_o_s_t.ttx src/Dhyana-Bold.otf._n_a_m_e.ttx src/Dhyana-Bold.otf._m_a_x_p.ttx src/Dhyana-Bold.otf._h_m_t_x.ttx src/Dhyana-Bold.otf._h_h_e_a.ttx src/Dhyana-Bold.otf._h_e_a_d.ttx src/Dhyana-Bold.otf._c_m_a_p.ttx src/Dhyana-Bold.otf.O_S_2f_2.ttx src/Dhyana-Bold.otf.GlyphOrder.ttx src/Dhyana-Bold.otf.G_S_U_B_.ttx src/Dhyana-Bold.otf.G_P_O_S_.ttx src/Dhyana-Bold.otf.G_D_E_F_.ttx src/Dhyana-Bold.otf.F_F_T_M_.ttx src/Dhyana-Bold.otf.C_F_F_.ttx /home/travis/build/fontdirectory/dhyana/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ bakery-lint.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.ufo /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.ufo /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.otf.ttx /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.otf.ttx /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.ttf.ttx /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.ttf.ttx /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold-TTF.sfd /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.sfd /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular-TTF.sfd /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.sfd > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): FAIL
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): FAIL
+pyfontaine error: Not a TrueType or OpenType font (bad sfntVersion)
+pyfontaine process has been failed
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): FAIL
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): FAIL
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ bakery-lint.py upstream Dhyana-Bold.ufo
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): FAIL
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream Dhyana-Regular.ufo
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): FAIL
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream-ttx Dhyana-Bold.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.otf.ttx /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Dhyana-Regular.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.otf.ttx /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Dhyana-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.ttf.ttx /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream-ttx Dhyana-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.ttf.ttx /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ bakery-lint.py upstream Dhyana-Bold-TTF.sfd
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream Dhyana-Bold.sfd
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream Dhyana-Regular-TTF.sfd
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream Dhyana-Regular.sfd
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/dhyana/builds/build /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.ttx /home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.ttx
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.sfd
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.sfd
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.ufo
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.ufo
+Compiling "/home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Regular.ttx" to "/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/dhyana/builds/build/sources/Dhyana-Bold.ttx" to "/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+### Test Dhyana-Regular.ttf
+$ bakery-lint.py result Dhyana-Regular.ttf
+$ font2ttf.py sources/Dhyana-Bold.ufo Dhyana-Bold.ttf
+### Test Dhyana-Bold.ttf
+$ bakery-lint.py result Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): ERROR
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf)
+$ font2ttf.py sources/Dhyana-Regular.ufo Dhyana-Regular.ttf
+### Test Dhyana-Bold.ttf
+$ bakery-lint.py result Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf)
+$ font2ttf.py sources/Dhyana-Bold-TTF.sfd Dhyana-Bold-TTF.ttf
+### Test Dhyana-Regular.ttf
+$ bakery-lint.py result Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf)
+$ font2ttf.py sources/Dhyana-Bold.sfd Dhyana-Bold.ttf
+### Test Dhyana-Bold-TTF.ttf
+$ bakery-lint.py result Dhyana-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+Parameter              Dhyana-Bold.ttf    Dhyana-Regular.ttf    
+ymax                   2518               2745                  
+hhea.ascent            2745               2745                  
+OS/2.sTypoAscender     2745               2745                  
+OS/2.usWinAscent       2745               2745                  
+ymin                   -710               -766                  
+hhea.descent           -766               -766                  
+OS/2.sTypoDescender    -766               -766                  
+OS/2.usWinDescent      766                766                   
+hhea.lineGap           0                  0                     
+OS/2.sTypoLineGap      0                  0                     
+hhea total             3511               3511                  
+typo total             3511               3511                  
+win total              3511               3511                  
+UPM:Heights            2048:3228          2048:3511             
+UPM:Heights %          157 %              171 %                 
+
+
+Parameter              Dhyana-Bold.ttf    Dhyana-Regular.ttf    
+ymax                   2518               2745                  
+hhea.ascent            2745               2745                  
+OS/2.sTypoAscender     2745               2745                  
+OS/2.usWinAscent       2745               2745                  
+ymin                   -710               -766                  
+hhea.descent           -766               -766                  
+OS/2.sTypoDescender    -766               -766                  
+OS/2.usWinDescent      766                766                   
+hhea.lineGap           0                  0                     
+OS/2.sTypoLineGap      0                  0                     
+hhea total             3511               3511                  
+typo total             3511               3511                  
+win total              3511               3511                  
+UPM:Heights            2048:3228          2048:3511             
+UPM:Heights %          157 %              171 %                 
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf)
+$ font2ttf.py sources/Dhyana-Regular-TTF.sfd Dhyana-Regular-TTF.ttf
+### Test Dhyana-Bold.ttf
+$ bakery-lint.py result Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf)
+$ font2ttf.py sources/Dhyana-Regular.sfd Dhyana-Regular.ttf
+### Test Dhyana-Regular-TTF.ttf
+$ bakery-lint.py result Dhyana-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+Parameter              Dhyana-Bold-TTF.ttf    Dhyana-Regular.ttf    Dhyana-Bold.ttf    
+ymax                   2518                   2745                  2518               
+hhea.ascent            2745                   2745                  2745               
+OS/2.sTypoAscender     2745                   2745                  2745               
+OS/2.usWinAscent       2745                   2745                  2745               
+ymin                   -710                   -766                  -710               
+hhea.descent           -766                   -766                  -766               
+OS/2.sTypoDescender    -766                   -766                  -766               
+OS/2.usWinDescent      766                    766                   766                
+hhea.lineGap           0                      0                     0                  
+OS/2.sTypoLineGap      0                      0                     0                  
+hhea total             3511                   3511                  3511               
+typo total             3511                   3511                  3511               
+win total              3511                   3511                  3511               
+UPM:Heights            2048:3228              2048:3511             2048:3228          
+UPM:Heights %          157 %                  171 %                 157 %              
+
+
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+Process Process-7:
+Traceback (most recent call last):
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/build.py", line 114, in run_processes
+    fontlint.run(filename, pipedata)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/fontlint.py", line 60, in run
+    log=self.bakery.logger)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/__init__.py", line 27, in run_set
+    return run_suite(tests_suite)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 246, in run_suite
+    runner.run(suite)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 171, in run
+    test(result)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/suite.py", line 70, in __call__
+    return self.run(*args, **kwds)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/suite.py", line 108, in run
+    test(result)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/case.py", line 393, in __call__
+    return self.run(*args, **kwds)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/case.py", line 333, in run
+    result.addFailure(self, sys.exc_info())
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 140, in addFailure
+    test.run(result=self)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/case.py", line 368, in run
+    result.addSuccess(self)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 105, in addSuccess
+    self.callmethod(test_method.autofix_method, test)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 91, in callmethod
+    getattr(mod, methodname.split('.')[-1])(test)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/autofix.py", line 158, in fix_fstype_to_zero
+    reset_fstype(targetpath)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/scripts/fstype.py", line 31, in reset_fstype
+    font.save(fontpath + '.fix')
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/ttfont.py", line 400, in save
+    self.ttfont.save(fontpath)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 212, in save
+    self._writeTable(tag, writer, done)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 627, in _writeTable
+    tabledata = self.getTableData(tag)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 644, in getTableData
+    return self.reader[tag]
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/sfnt.py", line 76, in __getitem__
+    data = entry.loadData (self.file)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/sfnt.py", line 361, in loadData
+    assert len(data) == self.length
+AssertionError
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf)
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+### Test Dhyana-Regular.ttf
+$ bakery-lint.py result Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+### (5 of 6) Generate METADATA.json (genmetadata.py)
+$ genmetadata.py /home/travis/build/fontdirectory/dhyana/builds/build
+{} exists
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+No Designer Name known, using Multiple Designers for now...
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+Original size: 45484\nGzip size: 30163
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+Family Name: Dhyana
+PS Name: Dhyana-Bold
+Full Name: Dhyana Bold
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+Style: normal
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+Weight: 700
+Filename: Dhyana-Bold.ttf
+Copyright: Copyright (c) 2010-12, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names "Nobile" and "Dhyana"
+Family Name: Dhyana
+PS Name: Dhyana-Bold
+Full Name: Dhyana Bold
+Style: normal
+Weight: 700
+Filename: Dhyana-Bold-TTF.ttf
+Copyright: Copyright (c) 2010-12, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names "Nobile" and "Dhyana"
+Family Name: Dhyana
+PS Name: Dhyana-Regular
+Full Name: Dhyana
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+Style: normal
+Weight: 400
+Filename: Dhyana-Regular.ttf
+Copyright: Copyright (c) 2010-12, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names "Nobile" and "Dhyana"
+Family Name: Dhyana
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+PS Name: Dhyana-Regular
+Full Name: Dhyana
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+Style: normal
+Weight: 400
+Filename: Dhyana-Regular-TTF.ttf
+Copyright: Copyright (c) 2010-12, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names "Nobile" and "Dhyana"
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+### (6 of 6) Run tests for METADATA.json
+$ bakery-lint.py metadata METADATA.json
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_lao(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+### Optimize TTF Dhyana-Bold.ttf
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+$ ls -l 'Dhyana-Bold.ttf'* # look at the size savings of that subset process
+Dhyana-Bold.ttf.opt: 35252 bytes
+Dhyana-Bold.ttf: 38644 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.opt /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+### Autohint TTFs (ttfautohint) Dhyana-Bold.ttf
+### Optimize TTF Dhyana-Bold-TTF.ttf
+$ ls -l /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf: 35252 bytes
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.autohint.ttf: 49136 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.autohint.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+### Subset TTFs (pyftsubset) Dhyana-Bold.ttf
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+$ ls -l 'Dhyana-Bold-TTF.ttf'* # look at the size savings of that subset process
+Dhyana-Bold-TTF.ttf.opt: 33708 bytes
+Dhyana-Bold-TTF.ttf: 37104 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.opt /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+### Autohint TTFs (ttfautohint) Dhyana-Bold-TTF.ttf
+Generate Dhyana-Bold.latin
+Generate Dhyana-Bold.menu
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+spaceWidth is    514
+nbspWidth is     612
+Dhyana-Bold.ttf.fix made with spaceWidth and nbspWidth of 612
+$ ls -l /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf: 33708 bytes
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.autohint.ttf: 47652 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.autohint.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+### Subset TTFs (pyftsubset) Dhyana-Bold-TTF.ttf
+Generate Dhyana-Bold-TTF.latin
+Generate Dhyana-Bold-TTF.menu
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+spaceWidth is    514
+nbspWidth is     612
+Dhyana-Bold-TTF.ttf.fix made with spaceWidth and nbspWidth of 612
+Parameter              Dhyana-Bold.ttf    Dhyana-Regular.ttf    Dhyana-Bold-TTF.ttf    
+ymax                   2518               2537                  2518                   
+hhea.ascent            2745               2745                  2745                   
+OS/2.sTypoAscender     2745               2745                  2745                   
+OS/2.usWinAscent       2745               2745                  2745                   
+ymin                   -710               -766                  -710                   
+hhea.descent           -766               -766                  -766                   
+OS/2.sTypoDescender    -766               -766                  -766                   
+OS/2.usWinDescent      766                766                   766                    
+hhea.lineGap           0                  0                     0                      
+OS/2.sTypoLineGap      0                  0                     0                      
+hhea total             3511               3511                  3511                   
+typo total             3511               3511                  3511                   
+win total              3511               3511                  3511                   
+UPM:Heights            2048:3228          2048:3303             2048:3228              
+UPM:Heights %          157 %              161 %                 157 %                  
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+### Optimize TTF Dhyana-Bold.ttf
+$ ls -l 'Dhyana-Bold.ttf'* # look at the size savings of that subset process
+Dhyana-Bold.ttf.opt: 48844 bytes
+Dhyana-Bold.ttf: 49192 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.opt /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+### Autohint TTFs (ttfautohint) Dhyana-Bold.ttf
+$ ls -l /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf: 48844 bytes
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.autohint.ttf: 49136 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.autohint.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+### Subset TTFs (pyftsubset) Dhyana-Bold.ttf
+Generate Dhyana-Bold.latin
+Generate Dhyana-Bold.menu
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+Parameter              Dhyana-Bold-TTF.ttf    Dhyana-Bold.ttf    Dhyana-Regular.ttf    Dhyana-Regular-TTF.ttf    
+ymax                   2518                   2518               2537                  2537                      
+hhea.ascent            2537                   2537               2537                  2537                      
+OS/2.sTypoAscender     2537                   2537               2537                  2537                      
+OS/2.usWinAscent       2537                   2537               2537                  2537                      
+ymin                   -710                   -710               -766                  -766                      
+hhea.descent           -766                   -766               -766                  -766                      
+OS/2.sTypoDescender    -766                   -766               -766                  -766                      
+OS/2.usWinDescent      766                    766                766                   766                       
+hhea.lineGap           0                      0                  0                     0                         
+OS/2.sTypoLineGap      0                      0                  0                     0                         
+hhea total             3303                   3303               3303                  3303                      
+typo total             3303                   3303               3303                  3303                      
+win total              3303                   3303               3303                  3303                      
+UPM:Heights            2048:3228              2048:3228          2048:3303             2048:3303                 
+UPM:Heights %          157 %                  157 %              161 %                 161 %                     
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold-TTF.ttf
+### Optimize TTF Dhyana-Regular.ttf
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): OK
+$ ls -l 'Dhyana-Regular.ttf'* # look at the size savings of that subset process
+Dhyana-Regular.ttf.opt: 41504 bytes
+Dhyana-Regular.ttf: 46380 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.opt /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+### Autohint TTFs (ttfautohint) Dhyana-Regular.ttf
+Parameter              Dhyana-Bold.ttf    Dhyana-Bold-TTF.ttf    Dhyana-Regular.ttf    Dhyana-Regular-TTF.ttf    
+ymax                   2518               2518                   2537                  2537                      
+hhea.ascent            2537               2537                   2537                  2537                      
+OS/2.sTypoAscender     2537               2537                   2537                  2537                      
+OS/2.usWinAscent       2537               2537                   2537                  2537                      
+ymin                   -710               -710                   -766                  -766                      
+hhea.descent           -766               -766                   -766                  -766                      
+OS/2.sTypoDescender    -766               -766                   -766                  -766                      
+OS/2.usWinDescent      766                766                    766                   766                       
+hhea.lineGap           0                  0                      0                     0                         
+OS/2.sTypoLineGap      0                  0                      0                     0                         
+hhea total             3303               3303                   3303                  3303                      
+typo total             3303               3303                   3303                  3303                      
+win total              3303               3303                   3303                  3303                      
+UPM:Heights            2048:3228          2048:3228              2048:3303             2048:3303                 
+UPM:Heights %          157 %              157 %                  161 %                 161 %                     
+
+
+$ ls -l /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf: 41504 bytes
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.autohint.ttf: 54500 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.autohint.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+### Subset TTFs (pyftsubset) Dhyana-Regular.ttf
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): FAIL
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_postScriptName_matches_ttf_fontname(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): FAIL
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): OK
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): FAIL
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): FAIL
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): OK
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): OK
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+Generate Dhyana-Regular.latin
+Parameter              Dhyana-Regular-TTF.ttf    Dhyana-Regular.ttf    Dhyana-Bold.ttf    Dhyana-Bold-TTF.ttf    
+ymax                   2537                      2537                  2518               2518                   
+hhea.ascent            2537                      2537                  2537               2537                   
+OS/2.sTypoAscender     2537                      2537                  2537               2537                   
+OS/2.usWinAscent       2537                      2537                  2537               2537                   
+ymin                   -766                      -766                  -710               -710                   
+hhea.descent           -766                      -766                  -766               -766                   
+OS/2.sTypoDescender    -766                      -766                  -766               -766                   
+OS/2.usWinDescent      766                       766                   766                766                    
+hhea.lineGap           0                         0                     0                  0                      
+OS/2.sTypoLineGap      0                         0                     0                  0                      
+hhea total             3303                      3303                  3303               3303                   
+typo total             3303                      3303                  3303               3303                   
+win total              3303                      3303                  3303               3303                   
+UPM:Heights            2048:3303                 2048:3303             2048:3228          2048:3228              
+UPM:Heights %          161 %                     161 %                 157 %              157 %                  
+
+
+Generate Dhyana-Regular.menu
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+### Optimize TTF Dhyana-Bold.ttf
+$ ls -l 'Dhyana-Bold.ttf'* # look at the size savings of that subset process
+Dhyana-Bold.ttf.opt: 48844 bytes
+Dhyana-Bold.ttf: 49192 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf.opt /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+### Autohint TTFs (ttfautohint) Dhyana-Bold.ttf
+$ ls -l /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf: 48844 bytes
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.autohint.ttf: 49136 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.autohint.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+### Subset TTFs (pyftsubset) Dhyana-Bold.ttf
+Generate Dhyana-Bold.latin
+Generate Dhyana-Bold.menu
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Bold.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+### Optimize TTF Dhyana-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.fix /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): OK
+$ ls -l 'Dhyana-Regular-TTF.ttf'* # look at the size savings of that subset process
+Dhyana-Regular-TTF.ttf.opt: 41696 bytes
+Dhyana-Regular-TTF.ttf: 45680 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf.opt /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+### Autohint TTFs (ttfautohint) Dhyana-Regular-TTF.ttf
+### Optimize TTF Dhyana-Regular.ttf
+$ ls -l /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf: 41696 bytes
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.autohint.ttf: 54636 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.autohint.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+### Subset TTFs (pyftsubset) Dhyana-Regular-TTF.ttf
+$ ls -l 'Dhyana-Regular.ttf'* # look at the size savings of that subset process
+Dhyana-Regular.ttf.opt: 54172 bytes
+Dhyana-Regular.ttf: 54556 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf.opt /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+Generate Dhyana-Regular-TTF.latin
+### Autohint TTFs (ttfautohint) Dhyana-Regular.ttf
+Generate Dhyana-Regular-TTF.menu
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular-TTF.ttf
+$ ls -l /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf: 54172 bytes
+/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.autohint.ttf: 54500 bytes
+$ mv /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.autohint.ttf /home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+### Subset TTFs (pyftsubset) Dhyana-Regular.ttf
+Generate Dhyana-Regular.latin
+Generate Dhyana-Regular.menu
+strippedname:/home/travis/build/fontdirectory/dhyana/builds/build/Dhyana-Regular.ttf
+{
+  "name": "Dhyana", 
+  "designer": "Vernon Adams", 
+  "license": "OFL", 
+  "visibility": "Internal", 
+  "category": "Serif", 
+  "size": 41671, 
+  "fonts": [
+    {
+      "name": "Dhyana", 
+      "postScriptName": "Dhyana-Bold", 
+      "fullName": "Dhyana Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Dhyana-Bold.ttf", 
+      "copyright": "Copyright (c) 2010-12, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \"Nobile\" and \"Dhyana\""
+    }, 
+    {
+      "name": "Dhyana", 
+      "postScriptName": "Dhyana-Bold", 
+      "fullName": "Dhyana Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Dhyana-Bold-TTF.ttf", 
+      "copyright": "Copyright (c) 2010-12, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \"Nobile\" and \"Dhyana\""
+    }, 
+    {
+      "name": "Dhyana", 
+      "postScriptName": "Dhyana-Regular", 
+      "fullName": "Dhyana", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Dhyana-Regular.ttf", 
+      "copyright": "Copyright (c) 2010-12, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \"Nobile\" and \"Dhyana\""
+    }, 
+    {
+      "name": "Dhyana", 
+      "postScriptName": "Dhyana-Regular", 
+      "fullName": "Dhyana", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Dhyana-Regular-TTF.ttf", 
+      "copyright": "Copyright (c) 2010-12, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \"Nobile\" and \"Dhyana\""
+    }
+  ], 
+  "subsets": [
+    "latin"
+  ], 
+  "dateAdded": "2011-12-15"
+}

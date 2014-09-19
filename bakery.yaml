@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [src/Dhyana-Regular.ufo, src/Dhyana-Bold.ufo, Dhyana-Regular.ttf.ttx,
+  Dhyana-Bold.ttf.ttx, src/Dhyana-Regular.otf.ttx, src/Dhyana-Bold.otf.ttx, src/Dhyana-Regular.sfd,
+  src/Dhyana-Regular-TTF.sfd, src/Dhyana-Bold.sfd, src/Dhyana-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
